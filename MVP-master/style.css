@@ -1,0 +1,100 @@
+:root {
+  --blue: (rgba(0, 0, 255, 0.555));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: whitesmoke;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 5rem;
+}
+section p {  
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+li p {
+  
+}
+form {
+  background: white;
+}
+form h2 {
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+}
+form p {
+  font-size: 1.5rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  border-radius: 5px;
+  box-shadow: 1px 5px 5px 3px rgba(0, 0, 0, 0.1);
+  margin: 5rem;
+  padding: 4rem;
+}
+
+.box1 {
+  border-top: 3px solid blue;
+}
+.box2 {
+  border-top: 3px solid blue;
+}
+.box3 {
+  border-left: 3px solid orange;
+  border-right: 3px solid orange;
+  background: white;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.box4 {
+  border-left: 3px solid orange;
+  border-right: 3px solid orange;
+  background: white;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+.box3 li {
+  display: flex;
+  margin: 5rem;
+}
+.button1, .button2 {    
+    margin: 1rem 1rem 0 0;
+    padding: 0.3rem;
+    border: 1px solid black ;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.button1 {
+  background: #0D870D; 
+  
+}
+.button2 {
+  background: #AB0900;
+}
